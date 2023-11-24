@@ -1,0 +1,106 @@
+/* ps */
+body{
+	font-family: 'Open Sans',sans-serif;
+    background-color: #bc8080;
+	background-image: url("https://img.freepik.com/free-photo/view-graphic-3d-mobile-phone_23-2150849183.jpg?t=st=1700846774~exp=1700850374~hmac=d64eeffc6cf4f73d1761938077e2d86852d16d75d72c48c1fa5c4b83426d0301&w=740");
+	background-attachment: fixed;
+	background-size: cover;
+       
+}
+
+
+#result{
+    background-color: #DADADA;
+	text-align: right;
+	box-shadow: 0 0 15px 0 rgba(32, 30, 30, 0.3) inset;
+	font-size: xx-large;
+	
+}
+
+#calculator{
+    background-color: #849DB0;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+  }
+
+.operator, .number{
+	border: 0;
+	font-weight: bold;
+	font-size: 25px;  
+	border-radius:5px;
+}
+
+.card-body{
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	column-gap: 14px;
+	row-gap: 17px;
+
+
+}
+
+.equal {
+	grid-column-start: 3;
+	grid-column-end: 5 ;
+}
+
+.number{
+	background-color:#566A77;
+    color:white;   
+}
+
+.operator:active, .number:active{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3) inset;
+    outline: none;
+   
+}
+
+button:nth-child(1){
+	font-size: 30px;
+	background-color: #EF6669;
+	color: white;
+	
+}
+button:nth-child(2){
+	font-size: 27px;
+	background-color: #D4DEE5;
+   
+}
+button:nth-child(3){
+	font-size: 30px;
+	background-color:#D4DEE5;
+    
+}
+
+button:nth-child(4){
+	font-size: 35px;
+	background-color:#D4DEE5;
+  
+}
+button:nth-child(8){
+	font-size: 35px;
+	background-color: #D4DEE5;
+   
+}
+button:nth-child(12){
+	font-size: 35px;
+	background-color: #D4DEE5;
+   
+}
+button:nth-child(16){
+	font-size: 35px;
+	background-color:#D4DEE5;
+   
+}
+
+button:nth-child(18){
+	font-size: 35px;
+	background-color:#566A77;
+    color: white;   
+}
+
+button:nth-child(19){
+	font-size: 35px;
+	background-color:#2E86C0;
+   	color:white;   
+}
